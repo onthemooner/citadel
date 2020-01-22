@@ -2,7 +2,7 @@
 home: true
 heroText: Citadel
 tagline: 好好学习，天天向上 
-actionText: 快速上手 →
+actionText: 查看目录 →
 actionLink: /guide/
 features:
 - title: 简洁至上
@@ -14,12 +14,7 @@ features:
 footer: Copyright © 2020
 ---
 
+# Citadel
+`Citadel`本意为堡垒，使用这个命名是参考权力的游戏中学士城
 
-# READMD
-sdafasd
-
-```
-sadfa
-asdfasd
-sadf
-```
+这里将作为一个知识库，更新股票投资相关的知识
