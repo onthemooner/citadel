@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: 
+heroImage: /heroImg.png
 heroText: Citadel
 tagline: 好好学习，天天向上 
 actionText: 开始进步 →
