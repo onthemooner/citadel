@@ -33,7 +33,12 @@ module.exports = {
             //     },
             // ],
             '/基础知识/': [
-                '交易规则',
+                {
+                    title: '交易',
+                    children: [
+                        '交易/成交原则',
+                    ],
+                },
                 {
                     title: '基本面',
                     children: [
@@ -42,10 +47,10 @@ module.exports = {
                     ],
                 },
                 {
-                    title: 'Definitions',
+                    title: '指标',
                     children: [
-                        'Definitions/PB',
-                        'Definitions/PE',
+                        '指标/成交量',
+                        '指标/MACD',
                     ],
                 },
             ],
