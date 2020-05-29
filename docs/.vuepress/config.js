@@ -10,6 +10,7 @@ module.exports = {
             { text: '洪功略', link: '/洪功略/' },
             { text: '趋势围猎', link: '/趋势围猎/' },
             { text: '价值投机', link: '/价值投机/' },
+            { text: '游资心得', link: '/游资心得/' },
         ],
         sidebar: {
             // '/basic/': [
@@ -34,7 +35,12 @@ module.exports = {
             //     },
             // ],
             '/基础知识/': [
-                '交易规则',
+                {
+                    title: '交易',
+                    children: [
+                        '交易/成交原则',
+                    ],
+                },
                 {
                     title: '基本面',
                     children: [
@@ -43,10 +49,10 @@ module.exports = {
                     ],
                 },
                 {
-                    title: 'Definitions',
+                    title: '指标',
                     children: [
-                        'Definitions/PB',
-                        'Definitions/PE',
+                        '指标/成交量',
+                        '指标/MACD',
                     ],
                 },
             ],
@@ -73,6 +79,11 @@ module.exports = {
             '/价值投机/': [
                 '/价值投机/盈利预测',
                 '/价值投机/行业分析',
+            ],
+            '/游资心得/': [
+                {
+                    title: '炒股养家',
+                },
             ],
         }
     },
