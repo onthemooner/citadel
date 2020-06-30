@@ -44,6 +44,13 @@ module.exports = {
                     ],
                 },
                 {
+                    title: '财务报表',
+                    children: [
+                        '财务报表/ROE',
+                        '财务报表/ROIC',
+                    ],
+                },
+                {
                     title: '盈利预测',
                     children: [
                         '盈利预测/业绩预测',
@@ -54,13 +61,6 @@ module.exports = {
                     title: '交易',
                     children: [
                         '交易/成交原则',
-                    ],
-                },
-                {
-                    title: '指标',
-                    children: [
-                        '指标/成交量',
-                        '指标/MACD',
                     ],
                 },
             ],
