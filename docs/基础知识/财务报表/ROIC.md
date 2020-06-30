@@ -22,3 +22,5 @@ description: ROIC
 
 
 ## 参考
+
+* [股票品质指标三强，为什么ROIC能排首位](http://www.360doc.com/content/19/0804/23/5286040_853015724.shtml)
